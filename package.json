@@ -1,0 +1,19 @@
+{
+  "name": "vertical",
+  "version": "1.0.0",
+  "description": "Prototype vertical scroll on table This Prototype is for example on FM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezafitriaman/verticalScroll.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezafitriaman/verticalScroll/issues"
+  },
+  "homepage": "https://github.com/rezafitriaman/verticalScroll#readme"
+}
