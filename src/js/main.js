@@ -114,6 +114,8 @@ $( document ).ready(function() {
 
     $element.rangeslider({
         polyfill: false,
+        step: 1,
+        animate: true,
         onInit: function() {
             $handle = $('.rangeslider__handle', this.$range);
             updateHandle($handle[0], this.value);
