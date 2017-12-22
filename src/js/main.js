@@ -109,27 +109,6 @@ $( document ).ready(function() {
 
     onClickHamburger();
 
-          var $element = $('input[type="range"]');
-    var $handle;
 
-    $element.rangeslider({
-        polyfill: false,
-        step: 1,
-        animate: true,
-        onInit: function() {
-            $handle = $('.rangeslider__handle', this.$range);
-            updateHandle($handle[0], this.value);
-            $("#amount-label").html('<span class="pricing__dollar">€</span>' + this.value);
-        }
-    }).on('input', function() {
-        updateHandle($handle[0], this.value);
-        $("#amount-label").html('<span class="pricing__dollar">€</span>' + this.value);
-    });
-
-    function updateHandle(el, val) {
-        el.textContent = val;
-    }
-
-    $('input[type="range"]').rangeslider();
 
 });
